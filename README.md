@@ -19,10 +19,12 @@ This project is based on a real consultant project monitoring dataset from an IT
 ```
 ├── data/
 │   └── processed/      # Normalized, exported CSV/XLSX tables
+├── docs/
+│   ├── Normalizing.html
+│   ├── Analysis.html
+│   └── Prediction.html
 ├── Normalizing.ipynb   # Data pipeline: master table → 7 normalized tables
-├── Normalizing.html    # Rendered HTML export of Normalizing.ipynb
 ├── Analysis.ipynb      # EDA notebook on the normalized tables
-├── Analysis.html       # Rendered HTML export of Analysis.ipynb
 ├── Prediction.ipynb    # Feature engineering + classification modeling for schedule delay
 └── README.md
 ```
