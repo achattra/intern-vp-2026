@@ -4,7 +4,7 @@ This project takes a single flat project monitoring master table (80+ columns) a
 
 ## Project Overview
 
-This project is based on a real consultant project monitoring dataset from an IT GRC / cybersecurity / data governance consulting engagement. The original flat table serves as the master source of project metadata. Since several transactional tables (contribution records, time logs, legal activity logs, and plan revision history) weren't available in the raw source, synthetic data was generated to simulate these tables under realistic business rules, while preserving the schema and relational structure of the original data.
+This project is based on a real consultant project monitoring dataset from an IT Governance, Risk, & Compliance (GRC) and cybersecurity consulting engagement. The original flat table serves as the master source of project metadata. Since several transactional tables (contribution records, time logs, legal activity logs, and plan revision history) weren't available in the raw source, synthetic data was generated to simulate these tables under realistic business rules, while preserving the schema and relational structure of the original data.
 
 ### Objectives
 
