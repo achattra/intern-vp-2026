@@ -18,7 +18,6 @@ This project is based on a real consultant project monitoring dataset from an IT
 
 ```
 ├── data/
-│   ├── raw/            # Original master table
 │   └── processed/      # Normalized, exported CSV/XLSX tables
 ├── Normalizing.ipynb   # Data pipeline: master table → 7 normalized tables
 ├── Normalizing.html    # Rendered HTML export of Normalizing.ipynb
